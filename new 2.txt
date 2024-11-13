@@ -1,0 +1,31 @@
+<html>
+
+<head>
+<script>
+
+	h1{
+		text-size:20;
+	}
+
+</script>
+</head>
+
+<body>
+
+	<img 
+						align="left"
+						width="1000"
+						src="om.jpg"
+						alt="om"
+						/>
+						
+	<center><h1>Hello, I am Danish</h1></center>
+	
+	<h2>I am a frontend web developer with 2 years of experience.</h2>
+	<center><h2>I know html , css and  javascript </h2></center>
+						
+						
+
+</body>
+
+</html>

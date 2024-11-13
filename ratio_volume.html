@@ -1,0 +1,31 @@
+<html>
+
+	<head>
+	<script>
+	
+		function calculatevolume(){
+		
+		let radius=parseInt(document.getElementById("radius").value)
+		let volume=(4/3)*3.14*radius*radius*radius;
+		console.log("volume",volume);
+		document.getElementById('volume').innerHTML = volume;
+		}
+	</script>
+	</head>
+
+	<body>
+
+			radius:<input type="text" id="radius"/>
+			
+			volumn:
+			 <input type="text" id="volume" > </input>
+			
+			<button id="blri" onClick="calculatevolume()">
+			calculate
+			</button>
+		
+		
+	
+	</body>
+
+</html>

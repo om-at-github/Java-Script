@@ -1,0 +1,29 @@
+<html>
+
+	<head>
+		<script>
+			function sumOfDigit(){
+			let num = parseInt(document.getElementById('num').value);
+			console.log("value",num)
+			let sum =0;
+			
+			while(num>0){
+			let rem = num % 10;
+			sum = sum+rem;
+			num = Math.floor(num / 10);
+			}
+			
+			document.getElementById('val').innerHTML = sum;
+			}
+			
+		</script>
+	</head>
+	
+	<body>
+		
+			Number : <input type="text" id="num" />&nbsp; &nbsp; <button id="btn" onClick="sumOfDigit()">Sum</button>
+			</br> </br>
+			Sum of digits are : <span id="val"></span>
+	</body>
+
+</html>
